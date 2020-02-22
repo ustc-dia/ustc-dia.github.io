@@ -1,0 +1,21 @@
+# Site settings
+title: 数字图像分析
+email: wangyf11@mail.ustc.edu.cn, pjh@mail.ustc.edu.cn
+description: "Course materials and notes for USTC DIA(Digital Image Analysis) class."
+baseurl: ""
+url: "http://ustc-dia.github.io"
+twitter_username: ustcdia
+github_username:  ustc-dia
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+future: true
