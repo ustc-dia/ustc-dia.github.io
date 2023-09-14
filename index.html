@@ -2,61 +2,14 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-    <!-- 包含头部信息用于适应不同设备 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- 包含 bootstrap 样式表 -->
+    <title>数字图像分析课程主页</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/headroom.min.js"></script>
-    <script src="js/jQuery.headroom.min.js"></script>
-    <script src="js/layer/layer.min.js"></script>
-    <title>数字图像分析课程主页</title>
-    <link href="css/css" rel="stylesheet">
     <style type="text/css">
         a {
             text-decoration: none;
-        }
-
-        .navbar-inner {
-            background-color: #00f;
-        }
-
-        .note {
-            padding: 18px 20px;
-            background: #eee;
-            text-decoration: none;
-            background: #ffc;
-            display: block;
-            padding: 20px;
-            width: 230px;
-            box-shadow: 5px 5px 7px rgba(33, 33, 33, .7);
-            -webkit-transform: rotate(-6deg);
-            -moz-transform: rotate(-6deg);
-            -ms-transform: rotate(-6deg);
-            transform: rotate(-6deg);
-            font-size: 18px;
-            position: fixed;
-            top: 100px;
-            right: 20px;
-        }
-    </style>
-    <style type="text/css">
-        .headroom {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            transition: all .5s ease-in-out;
-        }
-
-        .headroom--unpinned {
-            top: -100px;
-        }
-
-        .headroom--pinned {
-            top: 0;
         }
     </style>
 </head>
@@ -64,19 +17,28 @@
 <body style="height: 100%; color: rgb(0, 0, 0); -ms-overflow-x: hidden; padding-top: 50px;">
     <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top navbar-inverse" id="header" role="navigation">
-            <div class="navbar-header">
-                <a class="navbar-brand active" href="#" style="color: white;">数字图像分析课程主页 (2023 秋季)</a>
-            </div>
-            <div>
-                <ul class="nav navbar-nav">
-                    <li><a href="#class_info">课程信息</a></li>
-                    <li><a href="#books">参考书目</a></li>
-                    <li><a href="#courseware">教学课件</a></li>
-                    <li><a href="#homework">课程作业</a></li>
-                    <!-- <li><a href="#project">课程实验</a></li> -->
-                    <li><a href="#exam">考试信息</a></li>
-                    <li><a href="#contact">联系方式</a></li>
-                </ul>
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                        aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand active" href="#" style="color: white;">数字图像分析课程主页 (2023 秋季)</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#class_info">课程信息</a></li>
+                        <li><a href="#books">参考书目</a></li>
+                        <li><a href="#courseware">教学课件</a></li>
+                        <li><a href="#homework">课程作业</a></li>
+                        <!-- <li><a href="#project">课程实验</a></li> -->
+                        <li><a href="#exam">考试信息</a></li>
+                        <li><a href="#contact">联系方式</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
@@ -159,7 +121,9 @@
                 </tr>
 
                 <tr>
-                    <td></td><td></td><td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
@@ -175,7 +139,9 @@
                 </tr>
 
                 <tr>
-                    <td></td><td></td><td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
 
                 <tr>
@@ -394,7 +360,7 @@
         <span style="font-size: 20px; font-weight: bold; padding-left: 0px; padding-top: 8px;" id="contact">联系方式:</span>
         <p></p>
         <p>若有任何问题，请发邮件给老师或者助教，邮箱见课程信息部分。</p><br><br>
-        <p>&copy; MCC-Vision Lab 2023</p>
+        <p style="text-align:center">&copy; MCC-Vision Lab 2023</p>
 
 
     </div>
